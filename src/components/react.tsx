@@ -18,7 +18,7 @@ export default function ReactComponents() {
       method: "POST",
       body: JSON.stringify([
         [import.meta.env.PUBLIC_APP_SECRET, import.meta.env.APP_SECRET],
-        [import.meta.env.PUBLIC_APP_SECRET, import.meta.env.APP_SECRET],
+        [import.meta.env.PUBLIC_APP_KEY, import.meta.env.APP_KEY],
       ]),
     });
     console.log(response);
